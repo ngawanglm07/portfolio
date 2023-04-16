@@ -8,8 +8,8 @@ import data from './data';
 import Card from '../components/Cards';
 
 
-import Contact from './Contact';
 import Topp from '../components/Topp';
+import About from './About';
 
 
 
@@ -34,23 +34,20 @@ function Home() {
 
 
   return (
-    <div className='container-sm' >    
+    <div className='Container'>
     <br></br>
     <section class="link ">
-    <a href="#"> Hello and welcome to my portfolio website! My name is Ngawang Pelden lama and I am a web developer with 2 years of experience. I have a passion for creating beautiful , functional, and user-friendly web applications.</a>
+    <a href="#"> Hello and welcome to my portfolio website! My name is Ngawang Pelden lama and I am a web developer with 2 years of experience. I have a passion for creating beautiful web applications</a>
     </section>
     <br></br>
   <Topp/>
-  
-<section className="card-list">
+  <section className="card-list">
     {cards}
-</section>
-
-
-   
+  </section>
+   <About/>
 
    
-   <Contact/>
+  
    
    
   

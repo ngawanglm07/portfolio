@@ -8,7 +8,7 @@ import "../components/navigation.css"
 function Navigation() {
   return ( 
     <nav >     
-    <Navbar bg="dark" variant="dark" expand="lg" >
+    <Navbar  expand="lg" bg="white" >
       <Container>
       <LinkContainer to="/">
          <Navbar.Brand >

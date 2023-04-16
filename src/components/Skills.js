@@ -12,20 +12,8 @@ const Skill = () => {
   ];
 
   return (
-    <div className='skill'>
-      <h2>Skills</h2>
-      {skills.map((skill, index) => (
-        <div className='skill-item' key={index}>
-          <h3>{skill.name}</h3>
-          <div className='skill-progress'>
-            <div
-              className='skill-progress-bar'
-              style={{ width: skill.percentage }}
-            ></div>
-          </div>
-        </div>
-      ))}
-    </div>
+   <div></div>
+     
   );
 };
 

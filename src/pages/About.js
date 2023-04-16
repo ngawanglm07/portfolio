@@ -1,11 +1,9 @@
 import React from 'react'
+import "../pages/about.css";
 
 function About() {
   return (
-    <div>
-      
-    </div>
+   <div></div>
   )
 }
-
-export default About
+export default About;

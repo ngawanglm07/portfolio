@@ -1,27 +1,5 @@
-.home__bg{
-    height:92vh;
-    background-position:center ;
-    background-size: cover;
-    background-repeat: no-repeat;
-    overflow-x: hidden;
 
-}
 
-.home-message-icon{
-    margin-left: 10px;
-    display: inline-block;
-}
-
-.container-sm{
-    height:90%;
-    width: 70%;
-    background-color:#040f18 ;
-    opacity: 0.9;
-    background-repeat: no-repeat;
-    transition: all 0.3s ease;
-    color: #d4dde3;
-
-}
 
   /* Define the styles for the element when it is hovered over */
  
@@ -36,7 +14,7 @@
     margin: 0 auto;
 }
 .link a{
-    margin-top: 3%;
+    margin-top: 0 auto;
     font-size: 12px;
     color: #0091d1;
     text-decoration: none;
@@ -60,6 +38,9 @@
 }
 
   
-Container{
-    height: 400px;
+.Container{
+    background-color: azure;
+    width: 76%;
+    margin: 0 auto;
+
 }
